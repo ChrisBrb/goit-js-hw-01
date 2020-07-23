@@ -6,4 +6,34 @@
 
 
 const total = 100;
-const ordered = 50;
+const ordered = 20;
+
+// 1 ПРИМЕР
+
+if (ordered >= total) {
+
+    console.log('На складе недостаточно твоаров!')
+
+} else if (ordered <= total) {
+    console.log('Заказ оформлен, с вами свяжется менеджер')
+}
+
+// 2 ПРИМЕР
+
+//if (ordered >= total) {
+
+//   console.log('На складе недостаточно твоаров!')
+
+// }  else if (ordered <= total) {
+//  console.log('Заказ оформлен, с вами свяжется менеджер')
+// } 
+
+// 3 ПРИМЕР
+
+// if (ordered >= total) {
+
+//   console.log('На складе недостаточно твоаров!')
+
+// } else if (ordered <= total) {
+//   console.log('Заказ оформлен, с вами свяжется менеджер')
+// }
